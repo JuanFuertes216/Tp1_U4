@@ -1,0 +1,68 @@
+
+.tarjetaTabla {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+}
+.tituloSeccion {
+  font-size: 1.25rem;
+  color: #374151;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #f3f4f6;
+  padding-bottom: 10px;
+}
+.scrollTabla {
+  overflow-x: auto;
+}
+.tablaPrincipal {
+  width: 100%;
+  border-collapse: collapse;
+}
+.tablaPrincipal th, .tablaPrincipal td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+.tablaPrincipal th {
+  background-color: #f9fafb;
+  font-weight: 600;
+  color: #4b5563;
+}
+.celdaFuerte {
+  font-weight: 600;
+  color: #111827;
+}
+.textoSecundario {
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+.centrado {
+  text-align: center !important;
+}
+.mensajeVacio {
+  text-align: center;
+  color: #9ca3af;
+  padding: 30px !important;
+  font-style: italic;
+}
+.btnEditar, .btnBorrar {
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: none;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+  margin: 0 5px;
+}
+.btnEditar {
+  background-color: #fef3c7;
+  color: #d97706;
+}
+.btnEditar:hover { background-color: #fde68a; }
+.btnBorrar {
+  background-color: #fee2e2;
+  color: #dc2626;
+}
+.btnBorrar:hover { background-color: #fecaca; }
