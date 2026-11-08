@@ -1,0 +1,20 @@
+
+/* CSS muy básico para imitar d1.png */
+body {
+  font-family: 'Times New Roman', Times, serif; /* Fuente clásica por defecto */
+  margin: 20px;
+  color: black;
+}
+hr {
+  border: 0;
+  border-top: 1px solid #999;
+  margin: 15px 0;
+}
+button {
+  margin-right: 5px;
+  padding: 3px 8px;
+}
+input {
+  margin-right: 5px;
+  padding: 2px 5px;
+}
